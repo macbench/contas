@@ -1,0 +1,420 @@
+/*
+*{
+    box-shadow: inset 0px 0px 2px rgba(255,0,0,0.8);
+}
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap');
+
+:root {
+    --azul-claro: #2294b1;
+    --fundo: #ffffff;
+    --cabecalho: #038065;
+    --rodape: #073027;
+    --azul-escuro: #383838c1;
+    --azul-fonte: #023047;
+
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+/*PRELOADER*/
+
+#preloader {
+    background: #f5f7f6 url(../../img/load.gif) no-repeat center;
+    background-size: 550px;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    left: 0;
+    top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    transition: all .2s linear;
+    text-decoration: none;
+
+
+}
+
+
+/*
+html{
+    overflow: hidden;
+}*/
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--fundo);
+    color: #fff;
+
+}
+
+body {
+    --header-height: 50px;
+
+    margin: var(--header-height) 0 0 0;
+    font-family: sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--header-height);
+    background: #037b4d;
+    display: flex;
+    z-index: 900;
+    box-shadow: 0px .5px 8px #00000052;
+
+}
+
+.header__button {
+    width: var(--header-height);
+    flex-shrink: 0;
+    background: none;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding-left: 8px; 
+    font-size: 12.8px;
+}
+
+.header__button i {
+    line-height: var(--header-height);
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    line-height: 45px;
+    width: 80%;
+    font-weight: 600;
+}
+
+
+
+
+/*
+header {
+    background-color: var(--cabecalho);
+    display: flex;
+    width: 100%;
+    height: 45px;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 999;
+    box-shadow: 0px .5px 8px #00000052;
+
+}
+*/
+
+section {
+    flex: 1 0 auto;
+    color: var(--azul-fonte);
+}
+
+
+/* Apenas para relembrAr o efeirto PARALAX
+.img {
+    background-color: var(--azul-escuro);
+    width: 100%;
+    height: 420px;
+    background-image: url(../img/excel-fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+*/
+.welcome {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 90px 0 5px 0;
+    width: 100%;
+}
+
+.sub-come {
+    padding: 5px 10px;
+    font-size: 1.8em;
+    text-align: center;
+    margin: 0 0 30px 0;
+    width: 100%;
+}
+
+/**********************************/
+/********* IFRAME RESPONSIVE **********/
+#mainIframe1 {
+    max-width: 900px;
+    margin: 0 auto;
+    /*padding: 100px 0 0;*/
+    padding: 15px 0 65px 0;
+}
+
+#mainIframe {
+    max-width: 600px;
+    min-width: 250px;
+    margin: 0 auto;
+    /*padding: 100px 0 0;*/
+    padding: 50px 0 0;
+}
+
+.responsive {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.responsive img,
+iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.off {
+    margin-top: 35px;
+}
+
+.description {
+    text-align: center;
+    font-size: .9em;
+}
+
+
+
+.btn-ex1 {
+    display: flex;
+    width: 100%;
+}
+
+.exe-1 {
+    display: flex;
+    padding: 3px;
+    width: 100%;
+    color: #fff;
+    margin: 0 50px;
+    background-color: #038065;
+}
+
+.exe-1 img {
+    width: 180px;
+    filter: contrast(120%);
+}
+
+.exe-1 .txt1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px;
+    width: 100%;
+}
+
+.exe-1 span {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.des {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    flex-shrink: 0;
+    width: 100%;
+    height: 40px;
+    background-color: var(--rodape);
+    font-weight: 300;
+    margin-top: 250px;
+}
+
+.copy {
+    line-height: 40px;
+    text-align: center;
+    font-size: .7em;
+}
+
+.copy a {
+    color: #fff;
+}
+
+.copy a:hover {
+    text-decoration: underline;
+}
+
+
+
+/********************************/
+
+
+@media screen and (max-width: 740px) {
+    .exe-1 span {
+        font-size: 1.2em;
+    }
+
+    .des {
+        font-size: 1em;
+        text-align: center;
+    }
+
+}
+
+
+
+@media screen and (max-width:670px) {
+    .welcome {
+        font-size: 1.9em;
+    }
+
+    .sub-come {
+        font-size: 1.2em;
+    }
+
+}
+
+
+@media screen and (max-width: 570px) {
+    .exe-1 img {
+        width: 120px;
+    }
+
+    .exe-1 span {
+        font-size: 1em;
+    }
+
+    .des {
+        font-size: .8em;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .exe-1 {
+        margin: 0 20px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:460px) {
+
+    .welcome {
+        font-size: 1.5em;
+    }
+
+    .sub-come {
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .btn-ex1 {
+        display: flex;
+        width: 100%;
+    }
+
+    .exe-1 {
+        display: flex;
+        padding: 3px;
+        width: 100%;
+        color: #fff;
+        margin: 0 10px;
+        background-color: #038065;
+    }
+
+    .exe-1 img {
+        width: 110px;
+        filter: contrast(120%);
+    }
+
+    .exe-1 .txt1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 8px;
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .exe-1 span {
+        font-weight: 600;
+        font-size: .85em;
+    }
+
+    .des {
+        font-size: .8em;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 375px) {
+    .exe-1 span {
+        font-size: .8em;
+    }
+
+    .des {
+        font-size: .72em;
+    }
+}
+
+
+@media screen and (max-width:320px) {
+
+    .welcome {
+        font-size: 1.35em;
+    }
+
+    .sub-come {
+        font-size: 1em;
+    }
+    .exe-1 img {
+        width: 108px;
+    }
+
+    .exe-1 span {
+        font-size: .62em;
+    }
+
+    .des {
+        font-size: .6em;
+    }
+
+
+}

@@ -1,0 +1,412 @@
+/*
+*{
+    box-shadow: inset 0px 0px 2px rgba(255,0,0,0.8);
+}
+*/
+.main-txt {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt {
+    font-size: 19px;
+    /*text-align: justify;*/
+    max-width: 1200px;
+    /* min-width: 300px;*/
+    margin: 25px 30px;
+
+}
+
+.main-intro {
+    position: relative;
+    margin-bottom: 550px;
+}
+
+.wave {
+    z-index: 2;
+    position: absolute;
+    left: 38%;
+    filter: brightness(97.5%);
+}
+
+.msg-intro {
+    position: absolute;
+    top: 150.5px;
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.msg-intro p {
+    padding: 35px;
+    padding-top: 40px;
+    border-radius: 10px;
+    background-color: #6e27df52;
+    max-width: 780px;
+    text-shadow: 0 0 .01px #0000009a;
+    box-shadow: 0.5px -0.9px 5px #0000001e;
+
+}
+
+
+
+.secDiv {
+    border: solid 2px #11995542;
+    background: white;
+
+    border-radius: 15px;
+    padding: 0 40px 40px 40px;
+    box-shadow: 0.2px 1px 6px #0000001e;
+    overflow: hidden;
+    max-width: 800px;
+
+
+}
+
+
+.msg-dev h2 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.mod-txt {
+    text-align: center;
+    font-size: 18px;
+    margin: 30px 0 15px 0;
+}
+
+
+
+.contador {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1rem;
+
+}
+
+.contador div {
+    padding: 100px;
+    text-align: center;
+}
+
+.contador i {
+    font-size: 2.5rem;
+}
+
+.contador h2 {
+    font-size: 1.3rem;
+}
+
+.contador h3 {
+    font-size: 1.5rem;
+}
+
+.contador .short {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 15px;
+    border: dotted 3px var(--azul-fonte);
+    width: 150px;
+    height: 150px;
+
+
+}
+
+.works {
+    display: flex;
+    /* width: 800px;*/
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #5856561c;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 20px 0 150px 0;
+
+
+}
+
+
+.works .school {
+    background-color: #884de6;
+    width: 300px;
+    height: 250px;
+    border-radius: 35px;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px;
+    color: #fff;
+
+    box-shadow: 0px 10px 1px #6d27df;
+}
+
+.school:hover {
+    background-color: #6d27df;
+    color: #fff;
+    box-shadow: 0px 10px 1px #884de6;
+}
+
+.school:active {
+    box-shadow: 0px -10px 1px #884de6;
+
+}
+
+.works .school p {
+    padding: 12px;
+    font-weight: 700;
+    font-size: 1.9em;
+    margin-top: 20px;
+
+}
+
+.works .school i {
+    line-height: 90px;
+    font-size: 60px;
+
+}
+
+
+
+
+/***************** MODAL *******************/
+.modal {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #000000b4;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+    z-index: 999;
+
+}
+
+.modal:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-content {
+    background-color: #fff;
+    width: 90%;
+    max-width: 900px;
+    min-width: 310px;
+    height: 580px;
+    padding: 2rem 2rem;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-top: .5rem solid var(--cabecalho);
+}
+
+.modal-title {
+    margin-bottom: 1rem;
+    text-align: center;
+    padding-bottom: .5em;
+    border-bottom: solid 1px silver;
+}
+
+.modal-description {
+    text-align: justify;
+}
+
+.btn-ok {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modal-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .7rem 3rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    color: #fff;
+    background-color: var(--azul-fonte);
+}
+
+.modal-link:hover {
+    background-color: #023047e9;
+}
+
+.modal-link:active {
+    background-color: #02273a;
+}
+
+
+
+
+
+/***************** MIDIAS QUERYS *******************/
+@media screen and (max-width:840px) {
+    .main-intro {
+        margin-bottom: 600px;
+    }
+
+    .msg-intro p {
+        padding: 22px;
+        padding-top: 30px;
+    }
+
+    .secDiv {
+        padding: 0 22px 22px 22px;
+
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    .txt {
+        font-size: 12pt;
+        text-align: justify;
+        max-width: 1200px;
+        /* min-width: 300px;*/
+        margin: 25px 45px;
+
+    }
+
+    .msg-intro {
+        font-size: .96em;
+        top: 105.5px;
+
+    }
+
+    .msg-dev {
+        font-size: 1em;
+
+    }
+
+    .msg-dev h2 {
+        margin-bottom: 18px;
+        font-size: 1.45em;
+
+    }
+
+    .mod-txt {
+        text-align: center;
+        font-size: 18px;
+        margin: 30px 0 15px 0;
+    }
+
+
+    .main-intro {
+        margin-bottom: 450px;
+    }
+
+    .wave {
+        left: 38.2%;
+        width: 200px;
+    }
+
+}
+
+
+@media screen and (max-width:640px) {
+    .txt {
+        font-size: 12pt;
+        text-align: justify;
+        max-width: 1200px;
+        margin: 25px 19px;
+
+    }
+
+    .msg-intro {
+        font-size: .92em;
+
+    }
+
+    .msg-dev {
+        font-size: .83em;
+
+    }
+
+
+
+    .modal-content {
+        height: 600px;
+        padding: 2rem 1.5rem;
+
+    }
+
+    .modal-description {
+        font-size: .99em;
+    }
+
+    .main-intro {
+        margin-bottom: 520px;
+    }
+
+    .wave {
+        left: 28.5%;
+        width: 200px;
+    }
+
+
+}
+
+@media screen and (max-width:425px) {
+    .modal-content {
+        height: 520px;
+
+    }
+
+}
+
+
+@media screen and (max-width:414px) {
+    .modal-title {
+        font-size: 1.2em;
+    }
+
+    .modal-content {
+        height: 520px;
+
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    .modal-description {
+        font-size: .88em;
+    }
+
+    .modal-content {
+        height: 480px;
+    }
+
+}
+
+@media screen and (max-width:360px) {
+    .modal-description {
+        font-size: .89em;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+    .modal-description {
+        font-size: .85em;
+    }
+
+}
