@@ -129,11 +129,12 @@ body{
     padding: 12px 15px;
     background: transform 0.3s;
 
-    background: #009578;
-    padding-bottom: 60px;
+    background: var(--cabecalho);
+    padding-bottom: 20px;
     background-position: center;
     color: #fff;
     cursor: pointer;
+    margin-bottom: 40px;
 }
 
 .nav__link > i{
@@ -143,8 +144,8 @@ body{
 .nav__link:active,
 .nav__link:hover,
 .modulos .li a:active{
-    color: #009578;
-    background-color: #eeeeee;
+    color: var(--cabecalho);
+    background-color: #6e27df25;
    
 }
 
