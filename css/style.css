@@ -130,7 +130,7 @@ body{
     background: transform 0.3s;
 
     background: var(--cabecalho);
-    padding-bottom: 20px;
+    padding-bottom: 12px;
     background-position: center;
     color: #fff;
     cursor: pointer;
