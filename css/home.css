@@ -21,21 +21,27 @@
 }
 
 .main-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    margin-bottom: 550px;
+  /*  margin-bottom: 550px;*/
 }
 
 .wave {
-    z-index: 2;
-    position: absolute;
-    left: 38%;
+    width: 350px;
+   /* transform: translateX(50%);*/
+   /* position: absolute;*/
+    /*left: 38%;*/
     filter: brightness(97.5%);
 }
 
 .msg-intro {
+    z-index: 2;
     position: absolute;
-    top: 150.5px;
-
+    top: 50.5px;
+    margin: 18% 0 0 0;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -259,7 +265,7 @@
 /***************** MIDIAS QUERYS *******************/
 @media screen and (max-width:840px) {
     .main-intro {
-        margin-bottom: 600px;
+        /*margin-bottom: 600px;*/
     }
 
     .msg-intro p {
@@ -311,7 +317,7 @@
 
 
     .main-intro {
-        margin-bottom: 450px;
+       margin-bottom: 350px;
     }
 
     .wave {
@@ -354,7 +360,7 @@
     }
 
     .main-intro {
-        margin-bottom: 520px;
+       margin-bottom: 250px;
     }
 
     .wave {
