@@ -14,10 +14,9 @@
 .txt {
     font-size: 19px;
     /*text-align: justify;*/
-    max-width: 1200px;
+   /* max-width: 1200px;*/
     /* min-width: 300px;*/
-    margin: 25px 30px;
-
+    margin: 25px /*30px*/;
 }
 
 .main-intro {
@@ -26,7 +25,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-  /*  margin-bottom: 550px;*/
+   margin-bottom: 350px;
 }
 
 .wave {
@@ -38,23 +37,25 @@
 }
 
 .msg-intro {
-    z-index: 2;
+    z-index: 3;
     position: absolute;
     top: 50.5px;
-    margin: 18% 0 0 0;
+    margin: 28.5% 0 0 0;
     display: flex;
     width: 100%;
     justify-content: center;
+    box-shadow: 0 -23px 20px #6e27df34;
+    border-radius: 50% 50% 0 0;
+
+
 }
 
 .msg-intro p {
-    padding: 35px;
-    padding-top: 40px;
-    border-radius: 10px;
-    background-color: #6e27df52;
-    max-width: 780px;
+    padding: 50px;
+    margin-top: 22px;
+    text-align: center;
+    /*max-width: 780px;*/
     text-shadow: 0 0 .01px #0000009a;
-    box-shadow: 0.5px -0.9px 5px #0000001e;
 
 }
 
@@ -288,13 +289,15 @@
         text-align: justify;
         max-width: 1200px;
         /* min-width: 300px;*/
-        margin: 25px 45px;
+        margin: 25px 0;
 
     }
 
     .msg-intro {
         font-size: .96em;
         top: 105.5px;
+        margin: 18% 0 0 0;
+
 
     }
 
@@ -332,8 +335,8 @@
     .txt {
         font-size: 12pt;
         text-align: justify;
-        max-width: 1200px;
-        margin: 25px 19px;
+        max-width: 100vw;
+        margin: 25px 0;
 
     }
 

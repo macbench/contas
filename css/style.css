@@ -81,6 +81,10 @@ body {
     cursor: pointer;
 }
 
+.header__button span {
+    font-size: 1.78rem;
+}
+
 .nav {
     display: none;
 
@@ -125,10 +129,11 @@ body {
 
 }
 
+/*
 .logout {
     margin-top: 1rem;
 }
-
+*/
 .fundo-menu {
     display: flex;
     align-items: center;
