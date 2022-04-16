@@ -66,14 +66,16 @@
     background: white;
 
     border-radius: 15px;
-    padding: 0 40px 40px 40px;
-    box-shadow: 0.2px 1px 6px #0000001e;
+    padding: 50px;
+    /* box-shadow: 0.2px 1px 6px #0000001e; */
     overflow: hidden;
     max-width: 800px;
 
 
 }
-
+.secDiv img{
+height: 400px;
+}
 
 .msg-dev h2 {
     margin-bottom: 15px;
