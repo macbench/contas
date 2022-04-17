@@ -3,6 +3,8 @@
     box-shadow: inset 0px 0px 2px rgba(255,0,0,0.8);
 }
 */
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
 .main-txt {
     width: 100%;
     display: flex;
@@ -40,26 +42,29 @@
 
 .msg-intro {
     z-index: 3;
-   /* position: absolute;*/
+    /* position: absolute;*/
     display: flex;
     width: 100vw;
     justify-content: center;
     box-shadow: 0 -23px 20px #6e27df34;
     border-radius: 50% 50% 0 0;
 
-
 }
 
 .msg-intro p {
     padding: 50px;
-    margin-top: 22px;
+    margin: 52px 5px;
+
     text-align: center;
     /*max-width: 780px;*/
     text-shadow: 0 0 .01px #0000009a;
+    font-family: 'Square Peg', cursive;
+    font-size: 1.8em;
+
 
 }
 
-.paraCentro{
+.paraCentro {
     display: flex;
     flex-direction: column;
     justify-content: center;
