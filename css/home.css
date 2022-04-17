@@ -14,9 +14,11 @@
 .txt {
     font-size: 19px;
     /*text-align: justify;*/
-   /* max-width: 1200px;*/
+    /* max-width: 1200px;*/
     /* min-width: 300px;*/
-    margin: 25px /*30px*/;
+    margin: 25px
+        /*30px*/
+    ;
 }
 
 .main-intro {
@@ -25,24 +27,22 @@
     justify-content: center;
     align-items: center;
     position: relative;
-   margin-bottom: 350px;
+    margin-bottom: 350px;
 }
 
 .wave {
     width: 350px;
-   /* transform: translateX(50%);*/
-   /* position: absolute;*/
+    /* transform: translateX(50%);*/
+    /* position: absolute;*/
     /*left: 38%;*/
     filter: brightness(97.5%);
 }
 
 .msg-intro {
     z-index: 3;
-    position: absolute;
-    top: 50.5px;
-    margin: 28.5% 0 50px 0;
+   /* position: absolute;*/
     display: flex;
-    width: 100%;
+    width: 100vw;
     justify-content: center;
     box-shadow: 0 -23px 20px #6e27df34;
     border-radius: 50% 50% 0 0;
@@ -59,23 +59,39 @@
 
 }
 
+.paraCentro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
 
 .secDiv {
-   /* border: solid 2px #11995542;*/
-   /* background: white;*/
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    border: solid 2px #11995542;
+    text-align: center;
     border-radius: 15px;
-    padding: 80px;
+    /* padding: 80px;*/
     /* box-shadow: 0.2px 1px 6px #0000001e; */
     overflow: hidden;
-    max-width: 800px;
+    max-width: 500px;
+}
 
+.secDiv img {
+    border: solid 2px #11995542;
+    width: 60%;
+    height: 60%;
 
 }
 
 .msg-dev h2 {
-    margin-bottom: 15px;
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -264,9 +280,6 @@
 
 /***************** MIDIAS QUERYS *******************/
 @media screen and (max-width:840px) {
-    .main-intro {
-        /*margin-bottom: 600px;*/
-    }
 
     .msg-intro p {
         padding: 22px;
@@ -294,10 +307,6 @@
 
     .msg-intro {
         font-size: .96em;
-        top: 105.5px;
-        margin: 18% 0 0 0;
-
-
     }
 
     .msg-dev {
@@ -319,7 +328,7 @@
 
 
     .main-intro {
-       margin-bottom: 350px;
+        margin-bottom: 300px;
     }
 
     .wave {
@@ -362,7 +371,7 @@
     }
 
     .main-intro {
-       margin-bottom: 250px;
+        margin-bottom: 250px;
     }
 
     .wave {
