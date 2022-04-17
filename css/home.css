@@ -75,7 +75,7 @@
     justify-content: center;
     width: 80%;
     height: 80%;
-    border: solid 2px #11995542;
+    border: solid 2px #884de6;
     text-align: center;
     border-radius: 15px;
     /* padding: 80px;*/
@@ -85,7 +85,7 @@
 }
 
 .secDiv img {
-    border: solid 2px #11995542;
+    padding-top: 20px;
     width: 60%;
     height: 60%;
 
