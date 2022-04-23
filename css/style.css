@@ -149,6 +149,10 @@ body {
     margin-bottom: 20px;
 }
 
+.fundo-menu i{
+    padding: 2px;
+}
+
 .nav__link>i {
     margin-right: 15px;
 }
