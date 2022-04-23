@@ -3,7 +3,7 @@
     box-shadow: inset 0px 0px 2px rgba(255,0,0,0.8);
 }
 */
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
 
 .main-txt {
     width: 100%;
@@ -31,11 +31,11 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-bottom: 200px;
+    margin-bottom: 180px;
 }
 
 .wave {
-    width: 350px;
+    width: 550px;
     filter: brightness(97.5%);
 }
 
@@ -43,25 +43,37 @@
     z-index: 3;
     /* position: absolute;*/
     display: flex;
-    width: 104.5%;
+    width: 100%;
     justify-content: center;
-    box-shadow: 0 -35px 50px #8c4af793;
-   /* border-radius: 45% 45% 0 0;*/
-
+    box-shadow: 0 -15px 20px #a26df71a;
+    /* border-radius: 45% 45% 0 0;*/
 }
 
 .msg-intro p {
-    padding: 40px;
-    margin: 52px 0;
+    padding: 0 50px;
+    margin: 35px 0;
+    width: 100%;
+    max-width: 800px;
 
     text-align: center;
     /*max-width: 780px;*/
     text-shadow: 0 0 .01px #0000009a;
-    font-family: 'Courgette', cursive;
+    font-family: 'Nunito', sans-serif;
     font-size: 1.25em;
+    font-weight: 700;
 
 
 }
+
+.destaque{
+    padding: 0 0 40px 30px;
+}
+.destaque h2{
+    border-bottom: solid 2px silver;
+    padding: 10px;
+}
+
+
 
 .paraCentro {
     display: flex;
@@ -95,11 +107,12 @@
 
 }
 
-.msg-dev{
+.msg-dev {
     padding: 15px;
     font-size: .8em;
 
 }
+
 .msg-dev h2 {
     margin-top: 20px;
     text-align: center;
@@ -292,18 +305,13 @@
 @media screen and (max-width:840px) {
 
     .msg-intro p {
-        padding: 22px;
-        padding-top: 50px;
+        padding: 0 25px;
     }
+.secDiv p{
+    padding-bottom: 20px;
 
-    .secDiv {
-        padding: 0 22px 22px 22px;
-
-    }
 }
-
-
-
+}
 @media screen and (max-width:768px) {
 
     .txt {
@@ -315,16 +323,35 @@
 
     }
 
+    .paraCentro{
+        gap: 15px;
+    }
+    .secDiv {
+        width: 230px;
+        height: 300px;
+        font-size: .8em;
+    }
+    
+    .secDiv img {
+        margin-top: 30px;
+        width: 40%;
+        height: 40%;
+    
+    }
+    
+    .msg-dev {
+        padding: 8px;
+    
+    }
+    
+
     .msg-intro {
         font-size: .96em;
     }
 
-    .msg-dev {
-        font-size: 1em;
-
-    }
-
     .msg-dev h2 {
+        margin-top: 10px;
+
         margin-bottom: 18px;
         font-size: 1.45em;
 
@@ -336,6 +363,9 @@
         margin: 30px 0 15px 0;
     }
 
+    .msg-intro p {
+        max-width: 720px;
+    }
 
     .main-intro {
         margin-bottom: 300px;
@@ -343,13 +373,40 @@
 
     .wave {
         left: 38.2%;
-        width: 200px;
+        width: 450px;
     }
 
 }
 
 
 @media screen and (max-width:640px) {
+    .paraCentro {
+        flex-direction: column;
+        gap: 25px;
+    
+    }
+    .secDiv {
+        width: 65%;
+        height:  65%;
+        font-size: .8em;
+    }
+    
+    .secDiv img {
+        margin-top: 30px;
+        width: 42%;
+        height: 42%;
+    
+    }
+
+    .msg-dev h2 {
+        margin-bottom: 18px;
+        font-size: 1.7em;
+
+    }
+.msg-dev p{
+    font-size: 1.2em;
+}
+    
     .txt {
         font-size: 12pt;
         text-align: justify;
@@ -386,7 +443,7 @@
 
     .wave {
         left: 28.5%;
-        width: 200px;
+        width: 400px;
     }
 
 
@@ -414,6 +471,14 @@
 }
 
 @media screen and (max-width:375px) {
+    .wave {
+        width: 320px;
+    }
+
+    .msg-intro p {
+        padding: 0 20px;
+    }
+
     .modal-description {
         font-size: .88em;
     }
@@ -432,6 +497,10 @@
 }
 
 @media screen and (max-width:320px) {
+    .wave {
+        width: 300px;
+    }
+
     .modal-description {
         font-size: .85em;
     }
