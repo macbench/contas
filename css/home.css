@@ -380,6 +380,8 @@
 
 
 @media screen and (max-width:640px) {
+
+    
     .paraCentro {
         flex-direction: column;
         gap: 25px;
@@ -438,7 +440,7 @@
     }
 
     .main-intro {
-        margin-bottom: 250px;
+        margin-bottom: 220px;
     }
 
     .wave {
