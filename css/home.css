@@ -43,10 +43,10 @@
     z-index: 3;
     /* position: absolute;*/
     display: flex;
-    width: 100vw;
+    width: 104.5%;
     justify-content: center;
-    box-shadow: 0 -23px 20px #6e27df34;
-    border-radius: 45% 45% 0 0;
+    box-shadow: 0 -35px 50px #8c4af793;
+   /* border-radius: 45% 45% 0 0;*/
 
 }
 
@@ -65,10 +65,10 @@
 
 .paraCentro {
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 25px;
 
 }
 
@@ -77,8 +77,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 80%;
-    height: 80%;
+    width: 28%;
+    height: 40%;
     border: solid 2px #884de698;
     text-align: center;
     border-radius: 15px;
@@ -89,12 +89,17 @@
 }
 
 .secDiv img {
-    padding-top: 20px;
-    width: 60%;
-    height: 60%;
+    margin-top: 30px;
+    width: 50%;
+    height: 50%;
 
 }
 
+.msg-dev{
+    padding: 15px;
+    font-size: .8em;
+
+}
 .msg-dev h2 {
     margin-top: 20px;
     text-align: center;
