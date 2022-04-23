@@ -308,7 +308,7 @@
         padding: 0 25px;
     }
 .secDiv p{
-    padding-bottom: 20px;
+    padding: 0 10px 10px 20px; 
 
 }
 }
@@ -386,8 +386,8 @@
     
     }
     .secDiv {
-        width: 65%;
-        height:  65%;
+        width: 68%;
+        height:  68%;
         font-size: .8em;
     }
     
