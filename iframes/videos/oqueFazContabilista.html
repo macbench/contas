@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../lib/plyr/plyr.css">
+    <script src="../../lib/plyr/plyr.polyfilled.js"></script>
+    <style>
+        /* PLYR LIBRARY STYLE*/
+        :root {
+            --plyr-color-main:  #4e1f99;
+
+        }
+        video{
+            border: #4e1f99 solid 2px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <video id="player" playsinline controls data-poster="../../img/imagePlay.png">
+        <source src="../../video/O que faz um contabilista_ - Sage Brasil_HD.mp4" type="video/mp4" />
+
+        <!-- Captions are optional -->
+        <track kind="captions" label="Português" src="../doc/lang/legenda.vtt" srclang="pt" default/>
+
+        <track kind="captions" label="English" src="../doc/lang/" srclang="en"/>
+
+    </video>
+
+    <script>
+        const player = new Plyr('#player') 
+    </script>
+</body>
+
+</html>
