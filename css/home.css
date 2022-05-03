@@ -22,9 +22,11 @@
         /*30px*/
     ;
 
-    padding-bottom: 200px;
+    padding-bottom: 50px;
 }
-
+.parce{
+    margin-bottom: 200px;
+}
 .main-intro {
     display: flex;
     flex-direction: column;
