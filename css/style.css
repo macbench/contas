@@ -548,20 +548,26 @@ footer {
     justify-content: space-around;
     background-color: var(--Subrodape);
     height: 300px;
+    color: #fff;
 }
 
 .subFooter a i{
-    font-size: 1.6em;
-
+    font-size: 1.45em;
 }
+.subFooter a div{
+    font-size: .8em;
+}
+
+
 .subFooter h3{
     border-bottom: dotted 2px #fff;
-    padding: 10px 15px 8px 0;
+    padding: 10px 20px 8px 0;
     font-size: 1em;
 }
 
 .quikLinks,
 .quemSomos,
+.contactos,
 .redesSocias{
     display: flex;
     flex-direction: column;
@@ -570,6 +576,7 @@ footer {
 
 .quikLinks a,
 .quemSomos a,
+.contactos a,
 .redesSocias a{
     color: #fff;
     display: flex;
