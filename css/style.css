@@ -12,6 +12,7 @@
     --fundo: #ffffff;
     --cabecalho: #4e1f99;
     --rodape: #363636;
+    --Subrodape: #4d4d4dad;
     --azul-escuro: #383838c1;
     --azul-fonte: #023047;
 
@@ -212,7 +213,6 @@ body {
     visibility: visible;
     opacity: 1;
 }
-
 
 
 .logo {
@@ -534,14 +534,61 @@ iframe {
 
 footer {
     flex-shrink: 0;
+    margin:auto;
     width: 100%;
-    height: 40px;
     background-color: var(--rodape);
     font-weight: 300;
 }
 
+
+.subFooter{
+    display: flex;
+    gap: 20px;  
+    padding-top: 20px;
+    justify-content: space-around;
+    background-color: var(--Subrodape);
+    height: 300px;
+}
+
+.subFooter a i{
+    font-size: 1.6em;
+
+}
+.subFooter h3{
+    border-bottom: dotted 2px #fff;
+    padding: 10px 15px 8px 0;
+    font-size: 1em;
+}
+
+.quikLinks,
+.quemSomos,
+.redesSocias{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quikLinks a,
+.quemSomos a,
+.redesSocias a{
+    color: #fff;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
 .copy {
-    line-height: 40px;
+    height: 50px;
+    line-height: 50px;
     text-align: center;
     font-size: .8em;
 }
