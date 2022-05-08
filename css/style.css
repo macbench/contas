@@ -219,7 +219,7 @@ body {
     display: flex;
     justify-content: center;
     line-height: 45px;
-    width: 90%;
+    width: 94%;
     font-size: 1.2rem;
     font-weight: 400;
     font-family: 'Nunito', sans-serif;
@@ -548,26 +548,20 @@ footer {
     justify-content: space-around;
     background-color: var(--Subrodape);
     height: 300px;
-    color: #fff;
 }
 
 .subFooter a i{
-    font-size: 1.5em;
-}
-.subFooter a div{
-    font-size: .8em;
-}
+    font-size: 1.6em;
 
-
+}
 .subFooter h3{
     border-bottom: dotted 2px #fff;
-    padding: 10px 20px 8px 0;
+    padding: 10px 15px 8px 0;
     font-size: 1em;
 }
 
 .quikLinks,
 .quemSomos,
-.contactos,
 .redesSocias{
     display: flex;
     flex-direction: column;
@@ -576,7 +570,6 @@ footer {
 
 .quikLinks a,
 .quemSomos a,
-.contactos a,
 .redesSocias a{
     color: #fff;
     display: flex;
