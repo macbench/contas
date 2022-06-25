@@ -71,18 +71,38 @@
 
 .destaque{
     padding: 0 0 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 .destaque h2{
     border-bottom: solid 2px silver;
     padding: 10px;
+    width: 100%;
     font-family: 'Nunito', sans-serif;
     font-weight: bolder;
+    
 }
 
+.workx{
+    width: 10em;
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.workx img{
+    width: 100%;
+}
 .destaque .workx div{
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 500;
+    font-family: 'Nunito', sans-serif;
+
 }
 
 
