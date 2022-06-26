@@ -86,7 +86,11 @@
     
 }
 
-.workx{
+.Boxer{
+    display: flex;
+    gap: 2.5em;
+}
+.ltBox{
     width: 10em;
     height: 10em;
     display: flex;
@@ -94,10 +98,10 @@
     justify-content: center;
     flex-direction: column;
 }
-.workx img{
+.ltBox img{
     width: 100%;
 }
-.destaque .workx div{
+.destaque .ltBox div{
     text-align: center;
     font-size: 1em;
     font-weight: 500;
