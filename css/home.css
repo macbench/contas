@@ -88,7 +88,7 @@
 
 .Boxer{
     display: flex;
-    gap: 2.5em;
+    gap: 2em;
 }
 .ltBox{
     width: 10em;
