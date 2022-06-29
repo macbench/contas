@@ -2,13 +2,13 @@
 let questions = [
     {
     numb: 1,
-    question: "Nas opções abaixo selecione aquela que descreve melhor uma <strong>Célula.</strong>",
-    answer: "B) É o cruzamento entre uma coluna e uma linha",
+    question: "Relativamente ao processo de apuramento de resultados, o que acontece quando a conta <strong>8.3</strong> apresenta um saldo devedor?",
+    answer: "C) O saldo gerado considera-se um prejuizo.",
     options: [
-      "A) É apenas uma linha selecionada",
-      "B) É o cruzamento entre uma coluna e uma linha",
-      "C) É uma coluna interia selecionada",
-      "D) Nenhuma das opções"
+      "A) Considera-se o saldo como o lucro do período",
+      "B) É deduzido o imposto de 32% para a conta 8.5 em contrapartida da 4.4.1",
+      "C) O saldo gerado considera-se um prejuizo.",
+      "D) Reparte-se o lucro entre os sócios."
     ]
   }, 
     {
