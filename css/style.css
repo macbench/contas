@@ -560,7 +560,7 @@ footer {
 
 
 .subFooter h3{
-    border-bottom: dotted 1.5px #fff;
+    border-bottom: dotted 1.2px rgba(255, 255, 255, 0.249);
     padding: 10px 20px 8px 0;
     font-size: 1em;
 }
