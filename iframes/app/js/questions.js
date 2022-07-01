@@ -13,35 +13,35 @@ let questions = [
   }, 
     {
     numb: 2,
-    question: "Qual é a função de uma Célula?",
-    answer: "D) Todas às alínes estão correctas",
+    question: "A sigla ISPC signifa?",
+    answer: "C) Imposto Simplificado para pequenos Contribuintes",
     options: [
-      "A) Armazenar números",
-      "B) Escrever textos",
-      "C) Fazer operações por meio de fórmulas",
-      "D) Todas às alínes estão correctas"
+      "A) Imposto Sobre Pequenas Contas",
+      "B) Imposto Simpaticos Para Contribuintes",
+      "C) Imposto Simplificado para pequenos Contribuintes",
+      "D) Imposto Sobre Pequenos Contribuintes"
     ]
   },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "Qual é o Limite de aplicação triburária para a categoria do ISPC?",
+    answer: "C) 25.500,00 MT",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "A) 10.000,00 Mt",
+      "B) 21.000,00 USD",
+      "C) 25.500,00 MT",
+      "D) 19.500,00 USD"
     ]
   },
     {
     numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
+    question: "Nas Demonstrações Financeiras, Qual é o mapa que reflete a posição finaceira da empresa?",
+    answer: "C) O Balanço",
     options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
+      "A) A Demonstração de Resultados",
+      "B) O <em>CashFlow</em>",
+      "C) O Balanço",
+      "D) A Demostração da variação do Capital"
     ]
   },
     {
