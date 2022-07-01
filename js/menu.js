@@ -58,3 +58,7 @@ document.addEventListener("DOMContentLoaded", () =>{
 $('.li .second').click(function () {
     $('.li .second span').toggleClass("rotate");
 });
+
+$('.li .third').click(function () {
+    $('.li .third span').toggleClass("rotate");
+});
