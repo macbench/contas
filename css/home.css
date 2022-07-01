@@ -101,6 +101,7 @@
 }
 .ltBox img{
     width: 100%;
+  padding: 1em;
 }
 .destaque .ltBox div{
     padding-top: .8em;
@@ -482,7 +483,7 @@
     }
 
     .main-intro {
-        margin-bottom: 220px;
+        margin-bottom: 80px;
     }
 
     .wave {
