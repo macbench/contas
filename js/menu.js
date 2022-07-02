@@ -62,3 +62,17 @@ $('.li .third').click(function () {
     $('.li .third span').toggleClass("rotate");
 });
 
+
+let chx1 = document.querySelector('#btn-3')
+let chx2 = document.querySelector('#btn-4')
+let btnChx1 = document.querySelector('.second')
+let btnChx2 = document.querySelector('.third')
+
+
+btnChx1.addEventListener("click", ()=>{
+    chx2.checked = false
+})
+btnChx2.addEventListener("click", ()=>{
+    chx1.checked = false
+})
+

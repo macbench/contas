@@ -89,7 +89,6 @@
 .Boxer{
   /*  box-shadow: inset 0px 0px 2px rgba(255,0,0,0.8);*/
     display: flex;
-    gap: 1.5em;
 }
 .ltBox{
     width: 10em;
@@ -101,7 +100,7 @@
 }
 .ltBox img{
     width: 100%;
-  padding: 1em;
+  padding: 0 1em ;
 }
 .destaque .ltBox div{
     padding-top: .8em;
