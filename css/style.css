@@ -261,14 +261,16 @@ label>span {
     font-size: 1.2em;
 }
 
-.ul .li {
+.ul1 .li,
+.ul2 .li {
     cursor: pointer;
     border-top: solid 1px silver;
 
 
 }
 
-.ul .li:last-child {
+.ul1 .li:last-child,
+.ul2 .li:last-child  {
     border-bottom: solid 1px silver;
 }
 
@@ -277,17 +279,23 @@ label>span {
     display: block;
 }
 
-.ul {
+.ul1,
+.ul2 {
     position: static;
 }
 
-.ul .li a {
+.ul1 .li a,
+.ul2 .li a {
+   
     color: #666666;
     padding: 5px;
 
 }
 
-.ul .li a:hover {
+.ul1 .li a:hover,
+.ul2 .li a:hover {
+
+
     background: #4e1f999c;
     color: #fff;
 }
