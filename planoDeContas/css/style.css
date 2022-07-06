@@ -1,0 +1,9 @@
+*{
+    list-style: none;
+}
+input{
+    width: 60%;
+    height: 3em;
+    font-size: 1em;
+    text-indent: 1em;
+}
