@@ -7,7 +7,7 @@ contas = [
   "2.1 Compras","2.2 Mercadorias",
 
   "<strong>CLASSE 3 - INVESTIMENTOS DE CAPITAL</strong>",
-  "<strong>CLASSE 4 - CONTAS A RECEBER, A PAGAR, ACRÉSCIMOS E DIF.</strong>",
+  "<strong>CLASSE 4 - CONTAS A RECEBER, A PAGAR, ACRÉSCIMOS E DIFERIMENTOS</strong>",
   "<strong>CLASSE 5 - CAPITAL PRÓPRIO</strong>",
   "<strong>CLASSE 6 - GASTOS E PERDAS</strong>",
   "<strong>CLASSE 7 - RENDIMENTOS E GANHOS</strong>",
