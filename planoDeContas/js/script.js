@@ -8,14 +8,14 @@ for(i in contas){
   contas[i] = contas[i].toLowerCase()
 }
 lista.innerHTML = t
-pesquisa.onkeyup = function(e){
+pesquisa.onkeyup=function(e){
   t = this.value
   
   r = new RegExp(t,"g")
 
   for(i in contas){
-    if(contas[i].match(r) ){
-      lista.children[i].removeAtribute("style")
+    if(contas[i].match(r)){
+      lista.children[i].removeAttribute("style")
     }else{
       lista.children[i].style.display="none"
     }
