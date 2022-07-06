@@ -5,7 +5,7 @@ t=""
 
 for(i in contas){
   t+= "<li>"+contas[i]+"</li>"
-  contas[i] = contas[i].toLowerCase()
+  //contas[i] = contas[i].toLowerCase()
 }
 lista.innerHTML = t
 pesquisa.onkeyup=function(e){
