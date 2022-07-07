@@ -27,7 +27,7 @@ ul {
 }
 
 li {
-    background: rgb(244, 240, 168);
+    background-image: linear-gradient(180deg, #fafafa, #e6e6e6);
     padding: .8em;
     width: 80%;
     border-radius: 5px;
@@ -45,6 +45,9 @@ li {
         text-indent: 1em;
         margin-bottom: 2em;
     }
+  ul {
+       gap: .8em;
+   }
     
   li{
     font-size: .85em;
