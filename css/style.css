@@ -44,8 +44,8 @@
     top: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: none;
-    border: none;
+  /*  outline: none;
+    border: none;*/
 }
 
 
@@ -312,8 +312,8 @@ label>span {
 .li span.rotate {
     transform: rotate(-180deg);
 }
-
-input {
+input#btn-3,
+input#btn-4{
     display: none;
 }
 

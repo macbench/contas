@@ -1,18 +1,266 @@
 <!DOCTYPE html>
 <html lang="pt-pt">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="App For Accountants Students">
+  <meta name="author" content="Hélder Domingos Machava & Mac-Account">
+
+  <!--SWIPERR-->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!--Animations Divs fade with AOS Library-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!--JQUERY TO HELP IN ROTATE ON MENU-->
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+
+
+
+
+  <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="css/style.css">
+
+  <!--CDN-->
+  <!-- FONT AWESOME CDN-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <!--CONTADOR DO JQUERY-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta name="msapplication-TileColor" content="#4e1f99">
+  <meta name="theme-color" content="#4e1f99">
+
   <title>Plano de Contas</title>
 </head>
-<body>
 
-  <input type="search" placeholder="Pesquisar a conta" id="pesquisa">
+<body class="preload">
+  <div class="overlay_first"></div>
 
-  <ul id="lista"></ul>
-  
+  <header class="header">
+    <button class="header__button" id="btnNav" type="button">
+      <span class="uil uil-bars"></span>
+    </button>
+    <div class="logo"><span>Plano de Contas</span></div>
+  </header>
+
+  <!--MENU HERE-->
+
+  <nav class="nav">
+    <div class="nav__links">
+      <div class="nav__links">
+        <div class="fundo-menu">
+          <i class="uil uil-times voltar"></i>
+        </div>
+
+        <a href="#" class="nav__link" id="homePage">
+          <i class="uil uil-estate"></i>
+          <h3>Home</h3>
+        </a>
+        <a href="#" class="nav__link" id="homePage">
+          <i class="uil uil-user"></i>
+          <h3>Perfil</h3>
+        </a>
+
+
+
+        <!--Modulos >> MENU HERE-->
+
+        <div class="nav__link">
+          <div class="li">
+            <label for="btn-3" class="second">
+              <i class="uil uil-books"></i>
+              <h3>Manuais</h3>
+              <span class="uil uil-angle-up setmanual"></span>
+            </label>
+
+            <input type="checkbox" id="btn-3">
+
+            <div class="ul1 modulos">
+              <div class="li">
+                <a href="modulos/mod-a/session-a.html">
+                  <i class="uil uil-book-alt"></i>
+                  <h3>Finanças</h3>
+                </a>
+              </div>
+              <div class="li">
+                <a href="#modal" class="segundo" id="mb">
+                  <i class="uil uil-book-alt"></i>
+                  <h3>Auditoria</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--End Modulos >> MENU HERE-->
+
+
+
+
+
+        <!--Star EXPLORE Modulos >> MENU HERE-->
+
+        <div class="nav__link">
+          <div class="li">
+            <label for="btn-4" class="third">
+              <i class="uil uil-apps"></i>
+              <h3>Explorar</h3>
+              <span class="uil uil-angle-up setmanual"></span>
+            </label>
+
+            <input type="checkbox" id="btn-4">
+
+            <div class="ul2 modulos">
+              <div class="li">
+                <a href="planoDeContas/plano.html">
+                  <i class="uil uil-list-ui-alt"></i>
+                  <h3>Plano de Contas</h3>
+                </a>
+              </div>
+              <div class="li">
+                <a href="#modal" class="segundo" id="mb">
+                  <i class="uil uil-files-landscapes-alt"></i>
+                  <h3>Mapas de DF's</h3>
+                </a>
+              </div>
+              <div class="li">
+                <a href="#modal" class="segundo" id="mb">
+                  <i class="uil uil-file-question-alt"></i>
+                  <h3>Exercícios</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--END EXPLORE Modulos >> MENU HERE-->
+
+
+
+        F
+
+        <a class="nav__link" href="#">
+          <i class="uil uil-question-circle"></i>
+          <h3>Sobre nós</h3>
+        </a>
+
+        <a class="nav__link logout" href="#">
+          <i> <img src="img/donation.png" width="28px"></i>
+          <h3>Apoiar o projecto</h3>
+        </a>
+
+      </div>
+      <div class="nav__overlay"></div>
+  </nav>
+
+
+  <div class="mainColor">
+
+    <section>
+      <input type="search" placeholder="Pesquisar a conta" id="pesquisa">
+
+      
+      <ul id="lista"></ul>
+
+      <script src="js/script.js"></script>
+
+
+    </section>
+
+
+
+    <footer>
+      <div class="subFooter">
+
+        <div class="quikLinks">
+          <h3>Links Rápidos</h3>
+        </div>
+        <div class="quemSomos">
+          <h3>Quem Somos?</h3>
+          <a href="#" target="_blank">
+            <i class="uil uil-question-circle"></i>
+            <div>Perguntas frequentes</div>
+          </a>
+
+        </div>
+        <div class="contactos">
+          <h3>Contacte-nos</h3>
+          <a href="mailto:info.macbench@gmail.com" target="_blank">
+            <i class="uil uil-envelope"></i>
+            <div>info.macbench@gmail.com</div>
+          </a>
+          <a href="tel:+258-833-077-418" target="_blank">
+            <i class="uil uil-phone"></i>
+            <div>(+258) 83-307-7418</div>
+          </a>
+          <a href="#" target="_blank">
+            <i class="uil uil-whatsapp-alt"></i>
+            <div>Whatsapp</div>
+          </a>
+
+
+        </div>
+
+
+
+        <div class="redesSocias">
+          <h3>Siga Nossas Redes</h3>
+
+          <a href="https://www.facebook.com/MacBenchApp/" target="_blank">
+            <i class="uil uil-facebook"></i>
+            <div>Facebook</div>
+          </a>
+          <a href="https://www.linkedin.com/company/macbench/" target="_blank">
+            <i class="uil uil-linkedin"></i>
+            <div>Linkedin</div>
+          </a>
+          <a href="https://www.instagram.com/macbench_official/" target="_blank">
+            <i class="uil uil-instagram-alt"></i>
+            <div>Instagram</div>
+          </a>
+          <a href="#" target="_blank"></a>
+        </div>
+
+
+      </div>
+
+      <div class="copy">
+        <a href="#">Copyright &copy; 2022</a> | Created by HELDER MACHAVA
+      </div>
+    </footer>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <div id="preloader"></div>
+
+  <script src="js/menu.js"></script>
+
+
   <script src="js/script.js"></script>
+
+
+
+
 </body>
+
 </html>
