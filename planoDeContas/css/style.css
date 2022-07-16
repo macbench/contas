@@ -7,7 +7,9 @@
     box-sizing: border-box;
 
 }
-
+a{
+    color: #fff;
+}
 input#pesquisa {
     width: 80%;
     height: 3em;
