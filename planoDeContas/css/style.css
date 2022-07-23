@@ -35,7 +35,7 @@ a{
 /**** SISTEMA DE BARRA DE PESQUISA****/
 .caixaPesq{
 position: relative;
-/*width: 100%;*/
+width: 0%;
 }
 .buscar{
     position: absolute;
