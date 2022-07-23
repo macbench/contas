@@ -33,7 +33,7 @@ for(i in contas){
   contas[i] = contas[i].toLowerCase()
 }
 lista.innerHTML = t
-pesquisa.onkeyup=function(e){
+pesquisar.onkeyup=function(e){
   t = this.value.toLowerCase()
   
   r = new RegExp(t,"g")

@@ -5,20 +5,80 @@
     top: 0;
     padding: 0;
     box-sizing: border-box;
+   /* box-shadow: inset 0px 0px 2px rgba(255,0,0,0.8);*/
+
+
+}
+.header .buscar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* padding: 0 1em;*/
+    font-size: 1.4em;
+    margin-left: .5em;
+}
+
+.header .header__button{
+    font-size: 2em;
 
 }
 a{
     color: #fff;
 }
-input#pesquisa {
-    width: 80%;
-    height: 3em;
+
+/**** SISTEMA DE BARRA DE PESQUISA****/
+.caixaPesq{
+position: relative;
+/*width: 100%;*/
+}
+.buscar{
+    position: absolute;
+    left: 0;
+    top: 18%;
+}
+.logo{
+}
+.pesquisar{
+    width: 100%;
+    height: 100%;
     font-size: 1em;
-    text-indent: 1em;
-    margin: 5% 10%;
-    margin-bottom: 3em;
+    text-indent: 3em;
+    outline: none;
+    display: none;
 
 }
+.pesquisar::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+}
+
+
+.closePesq{
+    position: absolute;
+    top: 18%;
+    left: 85%;
+    color: #4e1f99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* padding: 0 1em;*/
+    font-size: 1.4em;
+    margin-right: .5em;
+    padding: 0 .5em;
+    display: none;
+
+  
+}
+
+/**** SISTEMA DE BARRA DE PESQUISA****/
+
+
+
+
+
+
+
+
+
 
 ul {
     display: flex;
@@ -44,15 +104,6 @@ li {
 
 
 @media screen and (max-width:768px) {
-    input#pesquisa {
-        width: 90%;
-        height: 2.5em;
-        font-size: 1em;
-        text-indent: 1em;
-        margin: 5% 4%;
-
-        margin-bottom: 2em;
-    }
   ul {
        gap: .5em;
    }
