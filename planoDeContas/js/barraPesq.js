@@ -15,7 +15,7 @@ closePsq.addEventListener("click", ()=>{
     pesquisar.style.display = "none"
     buscar.style.color = "white"
     closePsq.style.display = "none"
-    logo.style.display = "block"
+    logo.style.display = "flex"
     cxPsq.style.width = "35%"
 })
 
