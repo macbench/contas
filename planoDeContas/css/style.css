@@ -22,6 +22,12 @@
     font-size: 2em;
 
 }
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 a{
     color: #fff;
 }
@@ -34,7 +40,7 @@ position: relative;
 .buscar{
     position: absolute;
     left: 0;
-    top: 18%;
+    top: 17.5%;
 }
 .pesquisar{
     width: 100%;
@@ -85,6 +91,7 @@ ul {
     align-items: center;
     gap: 1em;
     margin: 1em;
+    margin-top: 3em;
     margin-bottom: 15em;
 
 }
