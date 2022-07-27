@@ -12,7 +12,7 @@ buscar.addEventListener("click", ()=>{
 
 closePsq.addEventListener("click", ()=>{
   
-    pesquisar.value = ""
+    pesquisar.reset
     pesquisar.style.display = "none"
     buscar.style.color = "white"
     closePsq.style.display = "none"
